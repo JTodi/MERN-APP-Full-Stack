@@ -1,0 +1,112 @@
+body{
+    background-color: #E4E4E4;
+}
+
+.MainSection{
+    width:100%;
+    height: 100%;
+    font-family: fantasy;
+}
+
+.SubmitSection{
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    /* margin-top: 50px; */
+    gap:50px;
+    background-color: rgb(246, 239, 214);
+}
+
+.InputCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: rgb(246, 239, 214); */
+    /* background-color: rgb(199, 199, 199);
+    width:100px;
+    height:150px;
+    border-radius: 5px; */
+}
+
+.InputCard img{
+    height: 50px;
+    width: 80px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.InputCard input{
+    border: none;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    font-weight: bolder;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.ButtonDiv{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    width:100px;
+    height: 30px;
+    background-color: rgb(179, 177, 177);
+    border: none;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+.PeopleSection{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+    background-color: #E4E4E4;
+}
+
+.Card{
+    text-align: center;
+    /* border: 2px solid rgb(129, 129, 129); */
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.Card:hover{
+    text-align: center;
+    /* border: 2px solid  rgb(129, 129, 129); */
+    box-shadow: 0px 0px 10px #deb887;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+
+.Card img{
+    height: 60px;
+    width: 110px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.ChartDiv{
+    margin-top: 30px;
+    /* border-top: solid rgb(78, 78, 78) 3px; */
+    display: flex;
+    justify-content: center;
+    background-color: #E4E4E4;
+}
